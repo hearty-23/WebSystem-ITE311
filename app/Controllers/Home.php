@@ -1,4 +1,11 @@
-public function index()
+<?php
+
+namespace App\Controllers;
+
+class Home extends BaseController
 {
-    return view('welcome_message'); // or your own view
+    public function index()
+    {
+        return view('template'); // this should match a view file like app/Views/template.php
+    }
 }
