@@ -27,9 +27,14 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'localhost',
+ HEAD
         'username'     => '',
         'password'     => '',
         'database'     => '',
+''=> '',    
+        'username'     => 'root',
+        'password'     => '',
+        'database'     => 'lms_almanon',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,

@@ -14,7 +14,11 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
+<<<<<<< HEAD
  CI_ENVIRONMENT = development
+=======
+# CI_ENVIRONMENT = production
+>>>>>>> 3125aa9 (Added database migrations and seeders)
 
 #--------------------------------------------------------------------
 # APP

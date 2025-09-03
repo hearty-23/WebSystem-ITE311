@@ -27,7 +27,11 @@ class Migrations extends BaseConfig
      * When migrations runs it will store in a database table which migration
      * files have already been run.
      */
+    public string $migrations = "";
     public string $table = 'migrations';
+
+    public string $table = 'sequential';
+    public string $prefix = '';
 
     /**
      * --------------------------------------------------------------------------
