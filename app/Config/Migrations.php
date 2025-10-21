@@ -28,7 +28,6 @@ class Migrations extends BaseConfig
      * files have already been run.
      */
     public string $migrations = "";
-    public string $table = 'migrations';
 
     public string $table = 'sequential';
     public string $prefix = '';

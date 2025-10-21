@@ -4,16 +4,18 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
- HEAD
     public function index()
     {
-        return view('template'); // this should match a view file like app/Views/template.php
+        return view('index');
     }
-}
 
-    public function index(): string
+    public function about()
     {
-        return view('welcome_message');
+        return view('about');
+    }
+
+    public function contact()
+    {
+        return view('contact');
     }
 }
- 3125aa9 (Added database migrations and seeders)

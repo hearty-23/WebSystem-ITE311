@@ -26,12 +26,7 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
- HEAD
-        'username'     => '',
-        'password'     => '',
-        'database'     => '',
-''=> '',    
+        'hostname'     => 'localhost', 
         'username'     => 'root',
         'password'     => '',
         'database'     => 'lms_almanon',
